@@ -1,4 +1,4 @@
-from asr.config.settings import *
+from alert-almond.config.settings import *
 from nltk.corpus import stopwords
 from nltk.tokenize import wordpunct_tokenize
 from nltk.stem.porter import PorterStemmer

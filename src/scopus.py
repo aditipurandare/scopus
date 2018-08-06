@@ -1,6 +1,6 @@
-from asr.config.settings import *
+from alert-almond.config.settings import *
 from urllib import urlencode, quote
-import asr.config.secrets
+import alert-almond.config.secrets
 import csv 
 import requests 
 import json 
@@ -9,7 +9,7 @@ import sys
 import os
 import time
 
-API_KEY =asr.config.secrets.scopus_api_key
+API_KEY =alert-almond.config.secrets.scopus_api_key
 
 '''
 full article retrieval in xml
